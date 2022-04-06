@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*NavBar*/
+
+.navBarJmcBrand{
+    background-color: #021426;
+}
+
+.JMCBrand{
+    background-color: #021426;
+}
+.logoJmcBrand{
+    width: 8%;
+    padding-left: 2rem;
+}
+.itemNavJmcBrand{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+    padding-right: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  background-image: linear-gradient(#19263f,#19263f);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+
+  transition: background-size 500ms;
+   
+}
+
+.itemNavJmcBrand:hover{
+  background-size: 100% 100%;
+  background-position-x: left;
+}
+
+.logoJmcBrandPrincipal{
+    width: 30%;
+    padding: 3rem;
+    align-content: center;
+}
+
+h1{
+    background-color: #19263f;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #ffffff;
+    padding: 2rem;  
+}
+h3{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 0.20rem;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+h4{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 0.10rem;
+    color: #ffffff;
+    padding-top: 2rem;
+    padding-left: 20rem;
+    padding-bottom: 1rem;
+}
+
+li{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+
+}
+
+p{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 1.2 rem;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-left: 8rem;
+    padding-right: 9rem;
+    padding-bottom: 2rem;
+}
+
+/*Footer*/
+.JMCBrandFooteer{
+    background-color: #021426;
+}
+
+.JmcBrandRedes {
+    display: flex;
+    list-style: none;}
+    .JmcBrandRedes li {
+      margin-top: 2%;
+      margin-left: 1%; }
+/*Index*/
+
+.carouselJMCBrand {
+    width: 90%;
+    align-items: center;
+    margin-left: 5rem;
+    padding-bottom: 4rem;
+}
+
+
+.paragraphTextJMCBrand{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 1.2 rem;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 15rem;
+    padding-right:15rem;
+    padding-bottom: 2rem;
+    text-align: justify;
+}
+.imageIndexJMC{
+    display: flex;
+    justify-content:center !important;
+    width: 60%;
+}
+
+.centralIndexJMC {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem; }
+
+/*Manual de Marca*/
+
+.centralManualdeMarca ul {
+    padding-left: 10rem;
+    padding-right: 3rem;
+    padding-top: 2rem;
+}
+.paragraphManualdeMarca{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 1.2 rem;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+/*Pages*/
+.paragraphTextJMCBrandPages{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 1.2 rem;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+    text-align: justify;
+}
+/*Camino Creativo*/
+.paragraphCaminoCreativo{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 1.2 rem;
+    color: #ffffff;
+}
+/*Gastro Check*/
+
+.paragraphGastroCheck{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 1.2 rem;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-left: 20rem;
+    padding-right:20rem;
+    padding-bottom: 2rem;
+}
+.blockGastroCheck{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 1.2 rem;
+    color: #ffffff;
+}
+.blockGastroCheck ol{
+    padding-left: 20rem;
+}
+.blockGastroCheck ul{
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+.imageIndexJMC1{
+    width: 40%;
+    padding-top: 4rem;
+}
+/*Contacto*/
+
+.form {
+    max-inline-size: 550px;
+    margin: auto;
+    color: #ffffff;
+  }
+  
+  .form label {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    padding-inline-start: .5em;
+  }
+  
+  .form label span {
+    color: #858C94;
+  }
+  
+  .form input, .form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8rem;
+    border-radius: .5rem;
+    border: 1px solid #858C94;
+  }
+  .form textarea {
+    margin-block-end: 2rem;
+    font-family: inherit;
+  }
+  
+  input::-webkit-input-placeholder {
+    color: #3a2c2c88;
+  }
+
+  #mailJM {
+    opacity: 0;
+  }
+  .btn i img {
+    vertical-align: middle;
+    color: #ffffff;
+  }
+  .btnJM{
+    color: #ffffff !important;
+    padding-bottom: 4rem;
+    border-radius: 90px;
+    letter-spacing: 1.25px;
+    background: initial;
+    block-size: 50px;
+    display: block;
+    cursor: pointer;
+    user-select: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    border: 2px solid var(--black);
+    font-weight: bold;
+    padding: 0 1.5em;
+  }
+  .btnJM.primary {
+    background: #19263f;
+  }
+  .datosMapascontactoJM {
+    margin-top: 3rem;
+    font-family: "Palanquin", sans-serif;
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+ }
