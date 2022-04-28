@@ -19,7 +19,7 @@ $destinatario = 'jmmc.esp@gmail.com';
 $asunto = 'Contacto desde mi web';
 mail($destinatario, $asunto, utf8_decode($mensaje), $header);
 
-header('Location: pages/exitoForm.html');
+header('Location:pages/exitoForm.html');
 
 ?>
 
