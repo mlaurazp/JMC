@@ -43,6 +43,14 @@
     padding: 3rem;
     align-content: center;
 }
+.navbar-toggler-icon{
+background-color: #19263f !important;
+border-radius: 1rem;
+}
+.navbar-toggler-icon :hover{
+background-color: #394862 !important;
+}
+
 
 h1{
     background-color: #19263f;
@@ -136,7 +144,7 @@ p{
 /*Manual de Marca*/
 
 .centralManualdeMarca ul {
-    padding-left: 10rem;
+    padding-left: 5rem;
     padding-top: 2rem;
 }
 .paragraphManualdeMarca{
@@ -149,6 +157,7 @@ p{
     padding-left: 20rem;
     padding-right: 20rem;
 }
+
 /*Pages*/
 .paragraphTextJMCBrandPages{
     font-family: Arial, Arial, Helvetica, sans-serif;
@@ -272,3 +281,45 @@ p{
   color: #ffffff;
   padding: 2rem;  
  }
+@media (max-width: 1000px) {
+  .h4{
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  .carouselJMCBrand {
+    width: 90%;
+    align-items: center;
+    margin-left: 1rem;
+    padding-bottom: 4rem;
+}
+  .paragraphGastroCheck{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .blockGastroCheck{
+    padding-left: 2rem;
+    padding-right: 2rem; }
+   }
+   .blockGastroCheck ol{
+    padding-left: 2rem;
+    padding-right: 2rem;
+   }
+  
+    .blockGastroCheck ul{
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+  .blockGastroCheck h4{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+   .paragraphManualdeMarca{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 1.2 rem;
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
